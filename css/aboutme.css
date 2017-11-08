@@ -1,6 +1,3 @@
-@charset "utf-8";
-
-
 
 /*------------------------------------*\
     $MAIN
@@ -10,24 +7,17 @@ html {
     color: #95a4a9;
     font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-body {
-    margin: 10%;
-}
+
 
 
 .backgroundbenz {
     background-image: url('background.jpg');   
-    background-size: 65%;
+    background-size: 45%;
     background-repeat: no-repeat;
-    background-position: 95% 
+    background-position: 80% 
 }
 
-.backgroundbenz .hover {
-    background-image: url('background.jpg');
-    background-size: 75%;
-    background-repeat: no-repeat;
-    background-position: 95% 
-}
+
 
 .avatar {
 
@@ -37,13 +27,13 @@ body {
 }
     .avatar img {
         max-width: 12%;
-        max-height: 20%;
+        max-height: 25%;
         border-radius: 125px;
     }
 
 .content {
-    width: 100%;
-    margin-left: 10%;
+
+    margin-left: 15%;
 
 
 }
@@ -96,24 +86,6 @@ body {
 
 
 
-/*------------------------------------*\
-    $TYPOGRAPHY
-\*------------------------------------*/
-p,
-ul, ol, dl,
-.title {
-    margin-bottom: 20px;
-}
-p {
-    font-weight: bold;
-}
-ul, ol, dl {
-    list-style-type: none;
-}
-a {
-    color: #339999;
-    font-weight: bold;
-}
 
 
 
@@ -136,7 +108,7 @@ a img:hover,
 }
 
 .aboutmeparagraph{
-    width: 20%;
+    width: 25%;
 }
 
 
@@ -155,7 +127,7 @@ a img:hover,
         background-size: cover;
         background-size: 0%;
         background-repeat: no-repeat;
-        background-position: 95% 
+        background-position: 92% 
     }
 
     .aboutmeparagraph{

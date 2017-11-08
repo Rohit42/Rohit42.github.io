@@ -393,7 +393,7 @@ Mask
 }
 .mask.cd-intro-content h1 span::before {
   /* this is the loading bar */
-  content: "Hi I'm";
+  content: "";
   position: absolute;
   top: calc(100% + 8px);
   left: -1em;
