@@ -154,13 +154,13 @@ header h1 {
   margin-top: -12px;
 }
 .cd-timeline-img.cd-picture {
-  background: #75ce66;
+  background: #202E4A;
 }
 .cd-timeline-img.cd-movie {
-  background: #c03b44;
+  background: #FB5E58;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background: #FFDD55;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
