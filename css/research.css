@@ -267,6 +267,21 @@ header h1 {
   color: #8493bf;
   margin-bottom: 2em;
 }
+
+.cd-btn2 {
+  display: inline-block;
+  padding: 1em 1em;
+  font-size: 1rem;
+  color: #ffffff;
+  width: 80%;
+  margin-left: 10%;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: #202e4a;
+  border-radius: .25em;
+  margin-right: 1.5em;
+}
 @media only screen and (min-width: 768px) {
   .cd-tabs-content {
     min-height: 480px;
@@ -274,6 +289,19 @@ header h1 {
   .cd-tabs-content li {
     padding: 2em 2em 2em 7em;
   }
+  .cd-btn2 {
+  display: inline-block;
+  padding: 1em 1em;
+  font-size: 1rem;
+  color: #ffffff;
+  width: 25%;
+  margin-left: 75%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #202e4a;
+  border-radius: .25em;
+  margin-right: 1.5em;
+}
 }
 @media only screen and (min-width: 960px) {
   .cd-tabs-content {

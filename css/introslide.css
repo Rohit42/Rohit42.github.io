@@ -80,19 +80,7 @@ General Style
     margin: 1.5em 0 1.9em;
   }
 }
-.cd-btn2 {
-  display: inline-block;
-  padding: 1em 1em;
-  font-size: 1rem;
-  color: #ffffff;
-  width: 25%;
-  margin-left: 75%;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  background-color: #202e4a;
-  border-radius: .25em;
-  margin-right: 1.5em;
-}
+
 
 .cd-btn {
   display: inline-block;
@@ -189,6 +177,7 @@ Reveal
     transform: translateY(5px);
   }
 }
+
 
 .reveal.cd-intro-content p {
   position: relative;
