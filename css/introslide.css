@@ -70,7 +70,11 @@ General Style
 .cd-intro-content .action-wrapper > * {
   float: left;
 }
+
+
+
 @media only screen and (min-width: 768px) {
+
   .cd-intro-content h1 {
     font-size: 5.2rem;
     font-weight: 300;
