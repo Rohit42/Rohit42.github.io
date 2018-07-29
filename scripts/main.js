@@ -14,6 +14,12 @@ $(function(){  // $(document).ready shorthand
 
 window.onresize = resizedesk
 
+window.addEventListener("load", function(){
+	var load_screen = document.getElementById("load_screen");
+    $("#load_screen").animate({'opacity':'0'},2000);
+	//document.body.removeChild(load_screen);
+});
+
 $(document).ready(function(){
     $('a[href^="#"]').on('click', function(event) {
 
