@@ -1,0 +1,647 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color: #FAFAFA;
+}
+.background {
+    background-color: #FAFAFA;
+}
+
+
+.contact_me_banner {
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1000;
+}
+
+.contact_me_banner h1 {
+    float: right;
+    z-index: 1000;
+    font-size: 2.5vh;
+    margin-right: 5%;
+    text-decoration: underline;
+
+}
+
+.contact_me_banner img{
+    float: left;
+    z-index: 1000;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 5vh;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .contact_me_banner img{
+        width: 0;
+    }
+}
+
+.contact_me_banner:hover h1 {
+    text-decoration: none;
+}
+
+div.stretchy-wrapper {
+	width: 100%;
+	padding-bottom: 56.25%; /* 16:9 */
+	position: relative;
+
+}
+
+
+
+div.stretchy-wrapper > div {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	font-size: 24px;
+	text-align: center;
+}
+
+h1,h2,p {
+  font-family: 'Abel'
+}
+.header_1 {
+    width: 100%;
+    padding-top: 0%;
+    text-align: center;
+    margin: 0;
+    background-color: #FAFAFA;
+    position: absolute;
+    font-size: 3.5vw;
+
+}
+
+.work_experience p {
+    font-size : 2vh;
+}
+
+.image_left_work {
+    max-width:45%;
+    float: right;
+}
+
+
+
+.image_right_work {
+    max-width:45%;
+    float: left;
+}
+
+
+.image_left {
+    max-width:70%;
+    float: right;
+}
+
+.text_left_work {
+    float: right;
+}
+
+
+.text_right_work {
+    float:left;
+}
+
+.text_right {
+    float:left;
+}
+
+.text_right h2{
+    font-size: 3vh;
+    margin: 1%;
+}
+.centered_text {
+    padding-top: 2%;
+    width: 60%;
+    margin: auto;
+}
+.about_me_elements_left {
+    padding-top: 25%;
+    margin: 0;
+}
+
+
+.about_me_elements_right {
+    padding-top: 25%;
+    margin: 0;
+}
+
+.about_me_element h1 {
+    font-size: 2vh;
+    margin-bottom: 5px;
+}
+.about_me_element h2{
+    font-size: 1.5vh;
+    margin: 0;
+    
+}
+
+.about_me_elements_left h1 {
+    text-align: right;
+}
+
+.about_me_elements_left h2{
+    text-align: right;
+}
+
+.about_me_elements_right h1{
+    text-align: left;
+}
+
+
+.about_me_elements_right h2{
+    text-align: left;
+}
+
+
+#profile_illustrated:hover {
+    opacity: 0;
+}
+.image-cropper {
+    background: url("PNG/realme.png");
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 75%;
+    margin: auto;
+}
+
+.section_header {
+    margin-top: 5%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 8vh;
+    margin-bottom: 5%;
+}
+
+.header_2 {
+    width: 100%;
+    padding-top: 0%;
+    text-align: center;
+    margin: 0;
+    background-color: #FAFAFA;
+    position: absolute;
+    font-size: 2vw;
+    font-style: italic;
+
+
+}
+
+.tags {
+    font-family: 'Abel';
+    text-align: left;
+    margin: 0;
+    background-color: #FAFAFA;
+    font-size: 2vw;
+    color: darkgray;
+    display: none;
+    position: relative;
+}
+
+.intro_holder{
+    position: relative;
+    margin-top: -12vh;
+    margin-bottom: 2.5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .intro_holder{
+        position: relative;
+        margin-top: 2vh;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .intro_holder{
+        position: relative;
+        margin: -8vh;
+        margin-bottom: 3.5%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .intro_holder{
+        position: relative;
+        margin: 0;
+    }
+}
+
+#greeting {
+    margin: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 7vh;
+    z-index: 1500;
+}
+
+
+#welcome {
+    margin: 0;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    font-size: 5vh;
+    text-align: center;
+    z-index: 1500;
+}
+
+#education {
+    z-index: 30;
+    right: 34%;
+    bottom: 17%;
+    position: absolute;
+  
+}
+
+
+.navigation {
+    top: 30%;
+    width : 85%;
+    height: 80%;
+    margin: auto;
+    position: relative;
+}
+
+#desk {
+    z-index: 15;
+    left :15%;
+    bottom: 9%;
+    position: absolute
+}
+
+#monitor{
+    z-index: 20;
+    left :35%;
+    bottom: 51%;
+    position: absolute;
+}
+
+#projects{
+    z-index: 20;
+    left :35%;
+    bottom: 87%;
+    position: absolute;
+}
+
+#lamp{
+    z-index: 40;
+    right :30%;
+    bottom: 51.5%;
+    position: absolute;
+}
+
+#aboutme{
+    z-index: 5;
+    right :30%;
+    top: -5%;
+    position: absolute;
+}
+
+#tennis{
+    z-index: 10;
+    right :15%;
+    bottom: 35%;
+    position: absolute;
+}
+
+#leadership{
+    z-index: 10;
+    right :2%;
+    bottom: 56%;
+    position: absolute;
+}
+
+#laptop{
+    z-index: 27;
+    left :18%;
+    bottom: 51%;
+    position: absolute;
+}
+
+#resume{
+    z-index: 27;
+    top: 5%;
+    left :16%;
+    position: absolute;
+}
+
+#download{
+    z-index: 23;
+    top: 7.5%;
+    left :7.5%;
+    position: absolute;
+}
+
+#camera{
+    z-index: 27;
+    top: 23%;
+    left :20%;
+    position: absolute;
+}
+
+#photos{
+    z-index: 23;
+    top: 24%;
+    left :14%;
+    position: absolute;
+}
+
+
+
+
+
+#mouse{
+    z-index: 27;
+    right :35%;
+    bottom: 51.5%;
+    position: absolute;
+}
+
+#speakers{
+    z-index: 25;
+    left :33.5%;
+    bottom: 51%;
+    position: absolute;
+}
+
+#spotify{
+    z-index: 25;
+    left : 25%;
+    bottom: 55%;
+    position: absolute;
+}
+
+#books {
+    z-index: 30;
+    right: 18%;
+    bottom: 9%;
+    position: absolute;
+}
+
+#educationlink:hover ~ #education {
+    display: block;
+}
+
+#worklink:hover ~ #work {
+    display: block;
+}
+#spotifylink:hover ~ #spotify {
+    display: block;
+}
+#leadershiplink:hover ~ #leadership {
+    display: block;
+}
+
+#photoslink:hover ~ #photos {
+    display: block;
+}
+#projectslink:hover ~ #projects {
+    display: block;
+}
+
+#resumelink:hover ~ #download {
+    display: block;
+}
+
+
+#briefcase {
+    z-index: 30;
+    left: 18%;
+    bottom: 9%;
+    position: absolute;
+}
+
+#work {
+    z-index: 30;
+    left: 34%;
+    bottom: 15%;
+    position: absolute;
+}
+
+img.selectable:hover{
+  filter: drop-shadow(5px 5px 5px #05F6E6);
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #ccc;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container_timeline {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container_timeline::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #ccc;
+  border: 4px solid #AD2B32;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left_timeline {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right_timeline {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left_timeline::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid #ccc;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #ccc;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right_timeline::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #ccc;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #ccc transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right_timeline::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content_timeline {
+  padding: 20px 30px;
+  background-color: #ccc;
+  position: relative;
+  border-radius: 6px;
+}
+
+.content_timeline p {
+    float: left;
+}
+.content_timeline button{
+    float: right;
+}
+
+.content_timeline::after {
+    content: "";
+    clear: both;
+    display: table
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container_timeline {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .container_timeline::before {
+    left: 60px;
+    border: medium solid #ccc;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #ccc transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left_timeline::after, .right_timeline::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right_timeline {
+    left: 0%;
+  }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.card_contents {
+    width: 100%;
+    height: 40vh;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+}
+.card_container {
+    padding: 2px 16px;
+}
+
+#lab_social_icon_footer {
+  padding: 40px 0;
+  background-color: #dedede;
+}
+
+#lab_social_icon_footer a {
+  color: #333;
+}
+
+#lab_social_icon_footer .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_footer #social-fb:hover {
+  color: #3B5998;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+  color: #4099FF;
+}
+
+#lab_social_icon_footer #social-gp:hover {
+  color: #d34836;
+}
+
+#lab_social_icon_footer #social-em:hover {
+  color: #f39c12;
+}
