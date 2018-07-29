@@ -13,9 +13,13 @@ function resizedesk() {
 window.onresize = resizedesk
 
 window.addEventListener("load", function(){
-	var load_screen = document.getElementById("load_screen");
-    $("#load_screen").animate({'opacity':'0'},1500);
-	document.body.removeChild(load_screen);
+	var load_screen = document.getElementById("load_sx`creen");
+    $("#load_screen").animate({'opacity':'0'},{
+    duration: 1000,
+    complete: function () {
+        document.body.removeChild(load_screen);
+    }
+    });
 });
 
 $(document).ready(function(){
