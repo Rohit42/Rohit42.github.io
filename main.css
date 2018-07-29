@@ -204,7 +204,7 @@ h1,h2,p {
 
 .intro_holder{
     position: relative;
-    margin-top: -12vh;
+    margin-top: -12.5vh;
     margin-bottom: 2.5%;
 }
 
@@ -430,15 +430,17 @@ img.selectable:hover{
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #ccc;
+  background-color: #000000;
   top: 0;
   bottom: 0;
   left: 50%;
   margin-left: -3px;
+  opacity: 0.025;
 }
 
 /* Container around content */
 .container_timeline {
+  opacity: 0;
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
@@ -447,11 +449,12 @@ img.selectable:hover{
 
 /* The circles on the timeline */
 .container_timeline::after {
+  opacity: 1;
   content: '';
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
+  right: -12px;
   background-color: #ccc;
   border: 4px solid #AD2B32;
   top: 15px;
@@ -499,7 +502,7 @@ img.selectable:hover{
 
 /* Fix the circle for containers on the right side */
 .right_timeline::after {
-  left: -16px;
+  left: -12px;
 }
 
 /* The actual content */
