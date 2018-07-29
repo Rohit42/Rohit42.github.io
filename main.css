@@ -57,7 +57,7 @@ body {
     }
 }
 
-.contact_me_banner:hover h1 .contact_me_banner:active h1 {
+.contact_me_banner h1:hover {
     text-decoration: underline;
 }
 
@@ -174,7 +174,7 @@ h1,h2,p {
 }
 
 
-#profile_illustrated:hover #profile_illustrated:active {
+#profile_illustrated:hover {
     opacity: 0;
 }
 .image-cropper {
@@ -417,33 +417,6 @@ h1,h2,p {
 }
 
 
-
-
-#educationlink:active ~ #education {
-    display: block;
-}
-
-#worklink:active ~ #work {
-    display: block;
-}
-#spotifylink:active ~ #spotify {
-    display: block;
-}
-#leadershiplink:active ~ #leadership {
-    display: block;
-}
-
-#photoslink:active ~ #photos {
-    display: block;
-}
-#projectslink:active ~ #projects {
-    display: block;
-}
-
-#resumelink:active ~ #download {
-    display: block;
-}
-
 #briefcase {
     z-index: 30;
     left: 18%;
@@ -458,7 +431,7 @@ h1,h2,p {
     position: absolute;
 }
 
-img.selectable:hover img.selectable:active{
+img.selectable:hover{
   filter: drop-shadow(5px 5px 5px #05F6E6);
 }
 
@@ -611,7 +584,7 @@ img.selectable:hover img.selectable:active{
     margin: auto;
 }
 
-.card:hover .card:active{
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -644,7 +617,7 @@ img.selectable:hover img.selectable:active{
   color: #333;
 }
 
-#lab_social_icon_footer .social:hover .social:active {
+#lab_social_icon_footer .social:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
